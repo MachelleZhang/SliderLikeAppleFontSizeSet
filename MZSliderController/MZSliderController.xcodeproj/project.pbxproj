@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E5075A1BF1D3AF0089B680 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E507591BF1D3AF0089B680 /* main.m */; };
+		01E5075D1BF1D3AF0089B680 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5075C1BF1D3AF0089B680 /* AppDelegate.m */; };
+		01E507601BF1D3AF0089B680 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5075F1BF1D3AF0089B680 /* ViewController.m */; };
+		01E507631BF1D3AF0089B680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E507611BF1D3AF0089B680 /* Main.storyboard */; };
+		01E507651BF1D3AF0089B680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E507641BF1D3AF0089B680 /* Assets.xcassets */; };
+		01E507681BF1D3AF0089B680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E507661BF1D3AF0089B680 /* LaunchScreen.storyboard */; };
+		01E507731BF1D3AF0089B680 /* MZSliderControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E507721BF1D3AF0089B680 /* MZSliderControllerTests.m */; };
+		01E5077E1BF1D3AF0089B680 /* MZSliderControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5077D1BF1D3AF0089B680 /* MZSliderControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E5076F1BF1D3AF0089B680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E5074D1BF1D3AF0089B680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E507541BF1D3AF0089B680;
+			remoteInfo = MZSliderController;
+		};
+		01E5077A1BF1D3AF0089B680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E5074D1BF1D3AF0089B680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E507541BF1D3AF0089B680;
+			remoteInfo = MZSliderController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E507551BF1D3AF0089B680 /* MZSliderController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZSliderController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E507591BF1D3AF0089B680 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01E5075B1BF1D3AF0089B680 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01E5075C1BF1D3AF0089B680 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E5075E1BF1D3AF0089B680 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01E5075F1BF1D3AF0089B680 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01E507621BF1D3AF0089B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01E507641BF1D3AF0089B680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E507671BF1D3AF0089B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E507691BF1D3AF0089B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E5076E1BF1D3AF0089B680 /* MZSliderControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZSliderControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E507721BF1D3AF0089B680 /* MZSliderControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSliderControllerTests.m; sourceTree = "<group>"; };
+		01E507741BF1D3AF0089B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E507791BF1D3AF0089B680 /* MZSliderControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZSliderControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E5077D1BF1D3AF0089B680 /* MZSliderControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSliderControllerUITests.m; sourceTree = "<group>"; };
+		01E5077F1BF1D3AF0089B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E507521BF1D3AF0089B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E5076B1BF1D3AF0089B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E507761BF1D3AF0089B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E5074C1BF1D3AF0089B680 = {
+			isa = PBXGroup;
+			children = (
+				01E507571BF1D3AF0089B680 /* MZSliderController */,
+				01E507711BF1D3AF0089B680 /* MZSliderControllerTests */,
+				01E5077C1BF1D3AF0089B680 /* MZSliderControllerUITests */,
+				01E507561BF1D3AF0089B680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E507561BF1D3AF0089B680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E507551BF1D3AF0089B680 /* MZSliderController.app */,
+				01E5076E1BF1D3AF0089B680 /* MZSliderControllerTests.xctest */,
+				01E507791BF1D3AF0089B680 /* MZSliderControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E507571BF1D3AF0089B680 /* MZSliderController */ = {
+			isa = PBXGroup;
+			children = (
+				01E5075B1BF1D3AF0089B680 /* AppDelegate.h */,
+				01E5075C1BF1D3AF0089B680 /* AppDelegate.m */,
+				01E5075E1BF1D3AF0089B680 /* ViewController.h */,
+				01E5075F1BF1D3AF0089B680 /* ViewController.m */,
+				01E507611BF1D3AF0089B680 /* Main.storyboard */,
+				01E507641BF1D3AF0089B680 /* Assets.xcassets */,
+				01E507661BF1D3AF0089B680 /* LaunchScreen.storyboard */,
+				01E507691BF1D3AF0089B680 /* Info.plist */,
+				01E507581BF1D3AF0089B680 /* Supporting Files */,
+			);
+			path = MZSliderController;
+			sourceTree = "<group>";
+		};
+		01E507581BF1D3AF0089B680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E507591BF1D3AF0089B680 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E507711BF1D3AF0089B680 /* MZSliderControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				01E507721BF1D3AF0089B680 /* MZSliderControllerTests.m */,
+				01E507741BF1D3AF0089B680 /* Info.plist */,
+			);
+			path = MZSliderControllerTests;
+			sourceTree = "<group>";
+		};
+		01E5077C1BF1D3AF0089B680 /* MZSliderControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01E5077D1BF1D3AF0089B680 /* MZSliderControllerUITests.m */,
+				01E5077F1BF1D3AF0089B680 /* Info.plist */,
+			);
+			path = MZSliderControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E507541BF1D3AF0089B680 /* MZSliderController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E507821BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderController" */;
+			buildPhases = (
+				01E507511BF1D3AF0089B680 /* Sources */,
+				01E507521BF1D3AF0089B680 /* Frameworks */,
+				01E507531BF1D3AF0089B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZSliderController;
+			productName = MZSliderController;
+			productReference = 01E507551BF1D3AF0089B680 /* MZSliderController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01E5076D1BF1D3AF0089B680 /* MZSliderControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E507851BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderControllerTests" */;
+			buildPhases = (
+				01E5076A1BF1D3AF0089B680 /* Sources */,
+				01E5076B1BF1D3AF0089B680 /* Frameworks */,
+				01E5076C1BF1D3AF0089B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E507701BF1D3AF0089B680 /* PBXTargetDependency */,
+			);
+			name = MZSliderControllerTests;
+			productName = MZSliderControllerTests;
+			productReference = 01E5076E1BF1D3AF0089B680 /* MZSliderControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01E507781BF1D3AF0089B680 /* MZSliderControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E507881BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderControllerUITests" */;
+			buildPhases = (
+				01E507751BF1D3AF0089B680 /* Sources */,
+				01E507761BF1D3AF0089B680 /* Frameworks */,
+				01E507771BF1D3AF0089B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E5077B1BF1D3AF0089B680 /* PBXTargetDependency */,
+			);
+			name = MZSliderControllerUITests;
+			productName = MZSliderControllerUITests;
+			productReference = 01E507791BF1D3AF0089B680 /* MZSliderControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E5074D1BF1D3AF0089B680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Machelle;
+				TargetAttributes = {
+					01E507541BF1D3AF0089B680 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+					};
+					01E5076D1BF1D3AF0089B680 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+						TestTargetID = 01E507541BF1D3AF0089B680;
+					};
+					01E507781BF1D3AF0089B680 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+						TestTargetID = 01E507541BF1D3AF0089B680;
+					};
+				};
+			};
+			buildConfigurationList = 01E507501BF1D3AF0089B680 /* Build configuration list for PBXProject "MZSliderController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E5074C1BF1D3AF0089B680;
+			productRefGroup = 01E507561BF1D3AF0089B680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E507541BF1D3AF0089B680 /* MZSliderController */,
+				01E5076D1BF1D3AF0089B680 /* MZSliderControllerTests */,
+				01E507781BF1D3AF0089B680 /* MZSliderControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E507531BF1D3AF0089B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E507681BF1D3AF0089B680 /* LaunchScreen.storyboard in Resources */,
+				01E507651BF1D3AF0089B680 /* Assets.xcassets in Resources */,
+				01E507631BF1D3AF0089B680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E5076C1BF1D3AF0089B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E507771BF1D3AF0089B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E507511BF1D3AF0089B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E507601BF1D3AF0089B680 /* ViewController.m in Sources */,
+				01E5075D1BF1D3AF0089B680 /* AppDelegate.m in Sources */,
+				01E5075A1BF1D3AF0089B680 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E5076A1BF1D3AF0089B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E507731BF1D3AF0089B680 /* MZSliderControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E507751BF1D3AF0089B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E5077E1BF1D3AF0089B680 /* MZSliderControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E507701BF1D3AF0089B680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E507541BF1D3AF0089B680 /* MZSliderController */;
+			targetProxy = 01E5076F1BF1D3AF0089B680 /* PBXContainerItemProxy */;
+		};
+		01E5077B1BF1D3AF0089B680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E507541BF1D3AF0089B680 /* MZSliderController */;
+			targetProxy = 01E5077A1BF1D3AF0089B680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01E507611BF1D3AF0089B680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E507621BF1D3AF0089B680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01E507661BF1D3AF0089B680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E507671BF1D3AF0089B680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E507801BF1D3AF0089B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E507811BF1D3AF0089B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E507831BF1D3AF0089B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZSliderController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01E507841BF1D3AF0089B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZSliderController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01E507861BF1D3AF0089B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZSliderControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZSliderController.app/MZSliderController";
+			};
+			name = Debug;
+		};
+		01E507871BF1D3AF0089B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZSliderControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZSliderController.app/MZSliderController";
+			};
+			name = Release;
+		};
+		01E507891BF1D3AF0089B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZSliderControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZSliderController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		01E5078A1BF1D3AF0089B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZSliderControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZSliderControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZSliderController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E507501BF1D3AF0089B680 /* Build configuration list for PBXProject "MZSliderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E507801BF1D3AF0089B680 /* Debug */,
+				01E507811BF1D3AF0089B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E507821BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E507831BF1D3AF0089B680 /* Debug */,
+				01E507841BF1D3AF0089B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01E507851BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E507861BF1D3AF0089B680 /* Debug */,
+				01E507871BF1D3AF0089B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01E507881BF1D3AF0089B680 /* Build configuration list for PBXNativeTarget "MZSliderControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E507891BF1D3AF0089B680 /* Debug */,
+				01E5078A1BF1D3AF0089B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E5074D1BF1D3AF0089B680 /* Project object */;
+}
